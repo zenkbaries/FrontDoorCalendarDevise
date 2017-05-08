@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: FrontDoorCalendarDevise_production
-  username: FrontDoorCalendarDevise
+  # username: FrontDoorCalendarDevise
+  username: postgresql
   password: <%= ENV['FRONTDOORCALENDARDEVISE_DATABASE_PASSWORD'] %>
