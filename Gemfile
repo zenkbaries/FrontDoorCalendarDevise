@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rails_12factor', group: :production
 
 gem 'devise','>=3.5.10'
+
+# https://github.com/laserlemon/figaro
+gem "figaro", ">= 1.1.1"
